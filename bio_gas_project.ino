@@ -6,6 +6,8 @@
 #include <SoftwareSerial.h>
 #include <ArduinoJson.h>
 
+// Bazio Stella Nile
+
 
 SoftwareSerial gsm(11, 10);//(rxPin, txPin, inverse_logic) //SIM800L Tx & Rx is connected to Arduino #11 & #10
 String APN = "internet";
